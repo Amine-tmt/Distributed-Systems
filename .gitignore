@@ -1,0 +1,53 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# ------------------------------
+# Jupyter Notebook
+# ------------------------------
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.nbconvert.ipynb
+
+# ------------------------------
+# IDE and editor settings
+# ------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------
+# System files
+# ------------------------------
+Thumbs.db
+.DS_Store
